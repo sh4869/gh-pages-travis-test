@@ -12,6 +12,10 @@ ghpages.publish(path.join(__dirname, '..','public'),{
   },
   message: `[ci skip] Update webpage`,
   silent: true
-},function(){
-  console.log("Update Webpage");
+},function(err){
+  if(err){
+    console.log("Error: " + err)
+  } else {
+     console.log("Update Webpage");
+  }
 });
