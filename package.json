@@ -21,7 +21,6 @@
   "homepage": "https://github.com/sh4869/gh-pages-travis-test#readme",
   "devDependencies": {
     "gh-pages": "^0.11.0",
-    "npm-run-all": "^2.3.0",
-    "travis-encrypt": "^2.1.1"
+    "npm-run-all": "^2.3.0"
   }
 }
