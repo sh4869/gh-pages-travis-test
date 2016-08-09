@@ -3,7 +3,7 @@ node_js:
   "6.3.0"
 sudo: false
 script:
-  - '[ "$TRAVIS_BRANCH" == "develop" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && npm run deploy'
+  - '[ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && npm run deploy'
 cache:
   directories:
     - node_modules
