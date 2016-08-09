@@ -11,7 +11,6 @@ ghpages.publish(path.join(__dirname, '..','public'),{
     email: 'nobuk4869@gmail.com'
   },
   message: `[ci skip] Update webpage`,
-  silent: true
 },function(err){
   if(err){
     console.log("Error: " + err)
